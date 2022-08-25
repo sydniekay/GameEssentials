@@ -1,6 +1,3 @@
 [submodule "MatchGame2022/Assets/Game.Tools"]
 	path = MatchGame2022/Assets/Game.Tools
 	url = https://github.com/anthonyromrell/ArtisanDream.Tools
-[submodule "MatchGame2022/Assets/Sydnie.ScriptsArchive"]
-	path = MatchGame2022/Assets/Sydnie.ScriptsArchive
-	url = https://github.com/sydniekay/ScriptsArchive
