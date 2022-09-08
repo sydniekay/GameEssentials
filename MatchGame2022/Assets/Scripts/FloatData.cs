@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 [CreateAssetMenu]
@@ -5,6 +6,11 @@ using UnityEngine;
 public class FloatData : ScriptableObject
 {
     public float value;
+
+    public void SetValue(float number)
+    {
+        value = number;
+    }
 
     public void UpdateValue(float number)
     {
