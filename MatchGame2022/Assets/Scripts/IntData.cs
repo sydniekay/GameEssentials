@@ -17,6 +17,18 @@ public class IntData : ScriptableObject
         value = obj.value;
     }
 
+    public void CompareValue(IntData obj)
+    {
+        if (value >= obj.value)
+        {
+            
+        }
+        else
+        {
+            value = obj.value;
+        }
+    }
+
     public void UpdateValue(int num)
     {
         value += num;
