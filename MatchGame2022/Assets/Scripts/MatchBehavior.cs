@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -9,13 +11,19 @@ public class MatchBehavior : MonoBehaviour
      unique ID of that object would still be the same.*/
     
     public ID idObj;
-    public UnityEvent matchEvent, noMatchEvent;
-    
-    private void OnTriggerEnter(Collider other)
+    public UnityEvent startEvent, matchEvent, noMatchEvent, noMatchDelayedEvent;
+
+
+    public void Start()
+    {
+        startEvent.Invoke();
+    }
+
+    private IEnumerator OnTriggerEnter(Collider other)
     {
         var tempObj = other.GetComponent<IdContainerBehavior>();
         if (tempObj == null) 
-            return;
+            yield break;
             
             
         var otherID = tempObj.idObj;
@@ -31,6 +39,8 @@ public class MatchBehavior : MonoBehaviour
         else
         {
             noMatchEvent.Invoke();
+            yield return new WaitForSeconds(0.5f);
+            noMatchDelayedEvent.Invoke();
         }
         
     }

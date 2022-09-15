@@ -8,7 +8,7 @@ public class IdContainerBehavior : MonoBehaviour
     public ID idObj;
     public UnityEvent startEvent;
 
-    public void Awake()
+    public void Start()
     {
         startEvent.Invoke();
     }
