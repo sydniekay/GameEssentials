@@ -221,6 +221,21 @@ MonoBehaviour:
   startEvent:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 251933597}
+        m_TargetAssemblyTypeName: CoroutineBehavior, Assembly-CSharp
+        m_MethodName: StartCounting
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  startCountEvent:
+    m_PersistentCalls:
+      m_Calls:
       - m_Target: {fileID: 11400000, guid: b2697166c65d81c46a889aa029b8ca2a, type: 2}
         m_TargetAssemblyTypeName: IntData, Assembly-CSharp
         m_MethodName: SetValue
@@ -233,21 +248,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  repeatEvent:
+  repeatCountEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1185227648}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: On
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 825197076}
         m_TargetAssemblyTypeName: TextLabelBehavior, Assembly-CSharp
         m_MethodName: UpdateLabel
@@ -260,7 +263,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  endEvent:
+      - m_Target: {fileID: 1185227648}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: On
+          m_BoolArgument: 0
+        m_CallState: 2
+  endCountEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 825197074}
@@ -272,7 +287,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: GO!
+          m_StringArgument: Go!
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1185227648}
@@ -287,7 +302,11 @@ MonoBehaviour:
           m_StringArgument: Hold
           m_BoolArgument: 0
         m_CallState: 2
+  repeatUntilFalseEvent:
+    m_PersistentCalls:
+      m_Calls: []
   counterNum: {fileID: 11400000, guid: b2697166c65d81c46a889aa029b8ca2a, type: 2}
+  canRun: 0
   seconds: 1
 --- !u!4 &251933598
 Transform:
