@@ -281,7 +281,7 @@ MonoBehaviour:
         m_MethodName: CreateInstance
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 1816525149}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -290,7 +290,7 @@ MonoBehaviour:
         m_CallState: 2
   counterNum: {fileID: 0}
   canRun: 0
-  seconds: 3
+  seconds: 1
 --- !u!1 &1816525149
 GameObject:
   m_ObjectHideFlags: 0
