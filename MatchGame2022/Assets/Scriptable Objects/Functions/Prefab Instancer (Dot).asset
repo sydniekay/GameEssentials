@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc7e4c97b89bf674b8cba55f02414800, type: 3}
-  m_Name: PrefabInstancer
+  m_Name: Prefab Instancer (Dot)
   m_EditorClassIdentifier: 
-  prefab: {fileID: 3559697193500158803, guid: bbf221eac2d00704f8589fc5446b461a, type: 3}
+  prefab: {fileID: 3559697193500158803, guid: 163ef25f39a7ba34c8b6ce52e17deae6, type: 3}
