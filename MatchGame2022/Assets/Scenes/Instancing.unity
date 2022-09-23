@@ -262,6 +262,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1860404147478737515, guid: 0ea26809531ff794ea46083b35a8ec11, type: 3}
+      propertyPath: seconds
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1860404147478737515, guid: 0ea26809531ff794ea46083b35a8ec11, type: 3}
       propertyPath: repeatUntilFalseEvent.m_PersistentCalls.m_Calls.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -312,7 +316,7 @@ PrefabInstance:
     - target: {fileID: 1860404147478737515, guid: 0ea26809531ff794ea46083b35a8ec11, type: 3}
       propertyPath: repeatUntilFalseEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 11400000, guid: dc0a90818bb4dd8489d360b67a639086, type: 2}
+      objectReference: {fileID: 11400000, guid: 56230cd043fc5d144b98cc71a7d333ec, type: 2}
     - target: {fileID: 1860404147478737515, guid: 0ea26809531ff794ea46083b35a8ec11, type: 3}
       propertyPath: repeatUntilFalseEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
