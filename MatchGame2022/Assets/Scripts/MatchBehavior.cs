@@ -42,6 +42,5 @@ public class MatchBehavior : MonoBehaviour
             yield return new WaitForSeconds(0.5f);
             noMatchDelayedEvent.Invoke();
         }
-        
     }
 }
